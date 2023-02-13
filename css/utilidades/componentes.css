@@ -1,5 +1,23 @@
+.container-2{ 
+  box-sizing: border-box;
+  max-width: 1400px;
+  padding-left: 55px;
+  padding-right: 30px;
+  font-size: 30px;
+  margin-left: auto ;
+  margin-right: auto ;
+  
+}
+
+.container-1{ 
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .botao {
-      
     display: inline-block;
     padding: 16px 32px;
     background: linear-gradient(#ffbf00, #f2a50c);
@@ -9,9 +27,8 @@
     color: var(--cor-p5);
     font-size: 18px;
     line-height: 1.33;
-    font-weight: bold;
-    
-  
+    font-weight: bolder;
+    font: 400 1.25rem/1.35 "roboto", sans-serif;
   }
   
   .botao:hover {
@@ -22,6 +39,6 @@
   @media (max-width:600px) {
     .botao {
       padding: 12px 16px;
-      font-size: 16px;
+      font-size: 1rem;
     }
   }
