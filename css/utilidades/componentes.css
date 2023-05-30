@@ -30,6 +30,8 @@
   line-height: 1.33;
   font-weight: bolder;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {

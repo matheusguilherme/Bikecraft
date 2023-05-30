@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UFT-8" />
-  <title> Contato | Bikcraft.</title>
+  <title>Orçamento | Bikcraft.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Termos e condições." />
+  <meta name="description" content="Orçamento." />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,500;0,800;1,400;1,800&family=Merriweather:wght@900&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700;1,800&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="termos.html">
+  <link rel="stylesheet" href="orçamento.html">
 </head>
 
 <header class="header-bg">
@@ -42,97 +42,86 @@
 <main>
   <div class="titulo-bg">
     <div class="titulo container-2">
-      <p class="fonte-2-l-b cor-5">Resposta em até 24 horas.  </p>
-      <h1 class="fonte-1-xl cor-0">Termos e condições <span class="cor-p1">.</span></h1>
+      <p class="fonte-2-l-b cor-5">Cotações no seu Email</p>
+      <h1 class="fonte-1-xl cor-0">Solicite um Orçamento <span class="cor-p1">.</span></h1>
     </div>
   </div>
 
   
-  <div class="contato container-2">
-    <section class="contato-dados" aria-label="Endereço">
-      <h2 class="fonte-1-m cor-0">Loja Online</h2>
-      <div class="contato-endereco fonte-2-s cor-4">
-      <p>Rua ali perto, 35 </p>
-      <p>Rio de Janeiro - RJ </p>
-      <p>Brasil - Terra - Vic Láctea</p>
+  <form class="orcamento container-2" action="./ ">
+    <div class="orcamento-produto">
+      <h2 class="fonte-1-xs cor-5">Bikcraft ou Seguro?</h2>
+
+      <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
+      <label for="bikcraft">Bikcraft</label>
+
+      <input type="radio" name="tipo" value="seguro" id="seguro">
+      <label for="seguro">seguro</label>
+
+      <div class="orcamento-conteudo" id="orcamento-bikcraft">
+        <h2 class="fonte-1-xs cor-0">escolha a sua (BIKCRAFT)</h2>
+      </div>
+
+      <div class="orcamento-conteudo" id="orcamento-seguro">
+        <h2 class="fonte-1-xs cor-0">escolha o plano</h2>
+      </div>
+
+
     </div>
-      <address class="contato-meios fonte-2-s cor-4"> 
-        <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
-        <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
-        <a href="tel:+55 21 99999999">+55 21 9999-9999</a>
-      </address>
-      <div class="contato-redes">
-      <a href="./">
-        <img src="./img/redes/instagram-p.svg" alt="instagram">
-      </a>
-      <a href="./">
-        <img src="./img/redes/facebook-p.svg" alt="Facebook">
-      </a>
-      <a href="./">
-        <img src="./img/redes/youtube-p.svg" alt="Youtube">
-      </a> 
-    </div>
-    </section>
-    <section class="contato-formulario" aria-label="furmulario">
-      <form class="forms" action="./contato.html">
-        <div class="col-2">
+    <div class="orcamento-dados forms">
+      <h2 class="fonte-1-xs cor-9 col-2">Dados Pessoais</h2>
+      <div>
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" placeholder="digite o nome aqui">
+        <input type="text" name="nome" id="nome">
+      </div>
+      <div>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome" id="sobrenome">
+      </div>
+      <div>
+        <label for="cpf">CPF </label>
+        <input type="text" name="CPF " id="CPF" placeholder="000.000.000-00">
       </div>
       <div class="col-2">
-        <label for="telefone">Telefone</label>
-        <input type="text" name="Telefone" id="telefone" placeholder="(21) 9999-9999">
+        <label for="email">Email </label>
+        <input type="email" name="Email " id="Email">
       </div>
+      <h2 class="fonte-1-xs cor-9 col-2">Entrega</h2>
       <div class="col-2">
-        <label for="email">Email</label>
-        <input type="email" name="Email" id="email" placeholder="contato@email.com">
+        <label for="email">Email </label>
+        <input type="email" name="Email " id="Email">
       </div>
-      <div class="col-2">
-        <label for="mensagem">Mensagem</label>
-        <textarea rows="5"  id="mensagem name="mensagem" placeholder="O que você precisa?"></textarea>
+      <div>
+        <label for="cep">CEP </label>
+        <input type="text" name="CEP " id="CEP">
       </div>
-      <button class="botao">Enviar mensagem</button>
-      </form>
-    </section>
-  </div> 
+      <div>
+        <label for="numero">numero</label>
+        <input type="text" name="numero" id="numero">
+      </div>
+      <div>
+        <label for="logradouro">logradouro</label>
+        <input type="text" name="logradouro" id="logradouro">
+      </div>
+      <div>
+        <label for="bairro">bairro</label>
+        <input type="text" name="bairro" id="bairro">
+      </div>
+      <div>
+        <label for="cidade">cidade</label>
+        <input type="text" name="cidade" id="cidade">
+      </div>
+      <div>
+        <label for="estado">estado</label>
+        <input type="text" name="estado" id="estado">
+      </div>
+      <button class="botao col-2">Solicitar Orçamento</button>
+    </div>
+  </form>
+   
 </main>
 
-<article class="lojas container-2">
-<h2 class="fonte-1-xxl ">Lojas Locais<span class="cor-p1">.</span></h2>
- 
- <div class="lojas-item">
-    <img src="./img/lojas/rj.jpg" alt="mapa marcando o Endereço em Rua ali perto, 25 - Rio de Janeiro - RJ">
-  <div class="lojas-conteudo">
-    <h3 class="fonte-1-xl">Rio de Janeiro</h3>
-  <div class="lojas-dados fonte-2-s cor8" >
-    <p>Rua ali perto, 25</p>
-    <p>Rio de Janeiro - RJ</p>
-  </div>
-  <div class="lojas-dados fonte-2-s cor-8" >
-    <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
-    <a href="tel:+55 21 99999999">+55 21 9999-9999</a>
-  </div>
-  <p class="lojas-tempo fonte-1-s"><img src="./img/icones/horario.svg" alt="">8-18h de seg á dom</p>
-</div>
-</div>
-<div class="lojas-item">
-  <img src="./img/lojas/sp.jpg" alt="mapa marcando o Endereço em Rua ali perto, 25 - São Paulo - SP">
-<div class="lojas-conteudo">
-  <h3 class="fonte-1-xl">São Paulo</h3>
-<div class="lojas-dados fonte-2-s cor8" >
-  <p>Rua ali perto, 25</p>
-  <p>São Paulo - SP</p>
-</div>
-<div class="lojas-dados fonte-2-s cor-8" >
-  <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
-  <a href="tel:+55 21 99999999">+55 11 9999-9999</a>
-</div>
-<p class="lojas-tempo fonte-1-s"><img src="./img/icones/horario.svg" alt="">8-18h de seg á dom</p>
-</div>
-</div>
-</article>
-
-<body id="contato">
+<body id="orcamento">
   <footer class="footer-bg">
     <div class="footer container-2">
       <img src="./img/bikcraft.svg" alt="Bikcraft">
@@ -171,4 +160,5 @@
     </div>
   </footer>
 </body>
+
 </html>
