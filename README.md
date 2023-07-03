@@ -1,5 +1,5 @@
 # Bikecraft
 
-Loja de customização de bicicletas.
+Plataforma voltada para a venda de bicicletas customizadas.
 
 By: `Matheus Guilherme`
